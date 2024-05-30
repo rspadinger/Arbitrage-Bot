@@ -1,0 +1,46 @@
+{
+    "name": "get-price-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js",
+        "startd": "nodemon --inspect-brk app.js"
+    },
+    "author": "RS",
+    "license": "ISC",
+    "dependencies": {
+        "@ethereumjs/tx": "^3.5.0",
+        "@ethersproject/abi": "^5.5.0",
+        "@reduxjs/toolkit": "^1.7.2",
+        "@sushiswap/sdk": "^5.0.0-canary.116",
+        "@thanpolas/univ3prices": "^3.0.2",
+        "@uniswap/smart-order-router": "^2.5.15",
+        "@uniswap/v2-core": "^1.0.1",
+        "@uniswap/v2-sdk": "^3.0.1",
+        "@uniswap/v3-core": "^1.0.1",
+        "@uniswap/v3-sdk": "^3.8.1",
+        "apollo-cache-inmemory": "^1.6.6",
+        "apollo-client": "^2.6.10",
+        "apollo-link-http": "^1.5.17",
+        "body-parser": "^1.19.1",
+        "coingecko-api": "^1.0.10",
+        "cross-fetch": "^3.1.5",
+        "ethers": "^5.5.3",
+        "express": "^4.17.2",
+        "express-handlebars": "^6.0.2",
+        "graphql": "^15.8.0",
+        "graphql-tag": "^2.12.6",
+        "method-override": "^3.0.0",
+        "moment": "^2.29.1",
+        "mongoose": "^6.1.8",
+        "node-cache": "^5.1.2",
+        "quickswap-sdk": "^3.0.8",
+        "winston": "^3.5.1"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.18",
+        "typescript": "^4.5.5"
+    }
+}
