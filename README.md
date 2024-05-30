@@ -1,6 +1,8 @@
 # A Simple Arbitrage Trading Bot
 
-This is a simply aritrage trading bot that performs the following steps:
+This is a simple arbitrage trading bot that calculates price differences between matching trading pairs on various Dexes (Uniswap, Sushiswap, Quickswap...) on the Polygon network and performs the corresponding trades whenever a profitable arbitrage opportunity is found. 
+
+The following steps are performed:
 
 * Get trading pairs (pools) for various second layer exchanges using the corresponding subgraphs for Uniswap, Quickswap, Sushiswap and Apeswap and add them to the corresponding Mongo database tables.
 
